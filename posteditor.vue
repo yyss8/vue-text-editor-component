@@ -283,9 +283,6 @@
             selectedTextIndex(){
                 const editorArea = document.getElementById('editorArea');
                 return [editorArea.selectionStart, editorArea.selectionEnd];
-            },
-            optionOnchange(e){
-                alert(e.target.value);
             }
         },
         components:{

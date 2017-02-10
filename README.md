@@ -65,5 +65,16 @@
 <br /><br />
 ### cancel: 取消函数, 可传入一个用作取消的函数, 当点击取消时将会使用这个函数
    
-   
-   
+
+## 在vue-text-editor中加入自定义内容
+
+    vue-text-editor在标题与文本样式按钮栏之中提供了一个slot (也可以自己添加/修改)
+    
+    通过这个slot可以在两者之间添加任何自定义的内容, 但是submit并不会返回这些内容的数据, 所以需要在父组件中自行绑定这些内容
+    
+    
+#### 一个包含checkbox自定义内容的vue-text-editor
+    <br />
+    <img src="https://github.com/yyss8/vue-text-editor-component/blob/master/screenshots/s.png" width="350">
+    <br />
+    <img src="https://github.com/yyss8/vue-text-editor-component/blob/master/screenshots/6.png" width="400">
